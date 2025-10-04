@@ -18,5 +18,5 @@ $$Ax=b$$
 the goal is to compute the unknown vector $x$ using an efficient and numerically stable method.
 One of the most common techniques is LU decomposition, which expresses the matrix $A$ as the product of a lower triangular matrix $L$ and an upper triangular matrix $U$:
 
-$$A=LU$$.
+$$A=LU$$
 
