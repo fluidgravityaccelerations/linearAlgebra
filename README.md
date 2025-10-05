@@ -33,3 +33,8 @@ $U$ is upper triangular with unit diagonal elements.
 For an $n\times n$ matrix $A$, the decomposition satisfies:
 
 $$A_{ij} = \sum_{k=1}^{\min(i,j)} L_{ik} U_{kj}$$
+
+The elements are computed as:
+
+$$L_{ii}​=A_{ii}​-\sum_{k=1}^{i-1}L_{ik} U_{kj}$$
+
