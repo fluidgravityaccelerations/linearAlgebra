@@ -20,3 +20,16 @@ One of the most common techniques is LU decomposition, which expresses the matri
 
 $$A=LU$$
 
+---
+
+## Crout’s LU Decomposition
+
+Crout’s method constructs the matrices $L$ and $U$ such that:
+
+$L$ is lower triangular with non-unit diagonal elements.
+
+$U$ is upper triangular with unit diagonal elements.
+
+For an $n\times n$ matrix $A$, the decomposition satisfies:
+
+$$A_{ij}​=\sum_{k=1}​^{min(i,j)}​​L_{ik}​​U_{kj}​.$$
