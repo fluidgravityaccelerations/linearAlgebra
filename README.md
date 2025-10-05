@@ -47,3 +47,11 @@ For tridiagonal matrices, only adjacent sub- and super-diagonal elements are non
 ---
 
 ## Solving Linear System by the LU method
+
+Once $A=LU$ has been computed, the system
+
+$$Ax=b$$
+
+can be solved in two substitution steps:
+
+
