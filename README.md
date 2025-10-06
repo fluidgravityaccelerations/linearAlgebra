@@ -54,4 +54,16 @@ $$Ax=b$$
 
 can be solved in two substitution steps:
 
+- **Forward substitution**
+
+  $$Ly=b$$
+
+  to obtain the intermediate vector $y$.
+  
+- **Backward substitution**
+
+  $$Ux=y$$
+
+  to find the solution $x$.
+
 
